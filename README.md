@@ -6,5 +6,5 @@ I describe my solutions in more detail on my blog, found [here][gjz].
 
 
 [aoc]: https://adventofcode.com/2019
-[forth]: https://en.wikipedia.org/wiki/Forth_(programming_language)l
+[forth]: https://en.wikipedia.org/wiki/Forth_(programming_language)
 [gjz]: https://georgjz.github.io/posts/
