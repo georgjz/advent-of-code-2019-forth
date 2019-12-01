@@ -27,7 +27,7 @@
 
 \ Part 1 
 s" Input.f" included                    \ get input values to stack
-depth constant len                      \ save number of inputs as constants
+depth constant len                      \ save number of inputs as constant
 variable values  depth 1- cells  allot  \ create array for input values
 values arrayloop                        \ save input values in array
 ' fuelpermodule values len map          \ map fuelpermodule function over array
@@ -38,5 +38,5 @@ s" Solution to Part 1: " type . cr      \ print result
 :noname negate ; values len map  sum
 ' fuelpermodulefuel values len map  sum 
 s" Solution to Part 2: " type . cr      \ print result
-\ bye 
+bye 
 
