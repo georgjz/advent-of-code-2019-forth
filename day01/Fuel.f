@@ -1,6 +1,4 @@
 \ Solution for Advent of Code 2019 in Forth 
-
-
 : fuelpermodule  ( u -- u )
     3 / 2 - ;
 
@@ -18,7 +16,6 @@
 : sum  ( n n -- n )
     depth 1- 0 do + loop ;
 
-: square  dup * ;
 
 \ Part 1 
 s" Input.f" included                    \ get input values to stack
